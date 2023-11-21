@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首頁</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <img src="圖片資源/logo.png" alt="">
+            <ul class="menu">
+                <li><a href="">首頁</a></li>
+                <li><a href="introduction.html">服務介紹</a></li>
+                <li><a href="protfolio.html">設計作品</a></li>
+                <li><a href="adopt.html">領養專區</a></li>
+                <a href="caricature.html"><button class="btn">毛孩似顏繪</button></a>
+            </ul>
+        </div>
+
+        <div class="box1">
+            <img src="圖片資源/home.png" alt="">
+            <div class="box2">
+                <div class="test">
+                    <span class="bot"></span>
+                    <span class="top"></span>
+                    客製我的毛孩圖
+                </div>
+                <img id="pic" src="圖片資源/btn2.png"  onclick="change()">
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="圖片資源/home01.png" alt="">
+            <span>
+                <h1>Service</h1>
+                <h2>您出錢 我出力 一起助浪浪</h2>
+                <p>我們是一群貓奴才狗奴才，<br/>
+                   希望能透過自己小小的力量幫助浪貓浪狗們，<br/>
+                   可我們沒什麼錢錢，但我們喜歡畫畫、喜愛貓狗，<br/>
+                   於是想到個兩全其美的好法子！<br/>
+                   如果您購買我們的寵物似顏繪服務，<br/>
+                   我們將會把設計費100%全數捐給浪浪們！<br/>
+                   您出錢，我出力，合作無間讓浪浪有飯吃，讚啦！</p>
+            </span>
+        </div>
+
+        <div class="protfolio">
+            <div class="title">
+                <img src="圖片資源/title01.png" alt="">
+            </div>
+            <ul class="art">
+                <li><img src="圖片資源/dog05.png" alt=""></li>
+                <li><img src="圖片資源/dog07.png" alt=""></li>
+                <li><img src="圖片資源/dog06.png" alt=""></li>
+                <li><img src="圖片資源/Michael.png" alt=""></li>
+            </ul>
+            <div class="btn">
+                <a href="protfolio.html"><button class="b1">查看更多作品</button></a>
+                <a href="caricature.html"><button class="b2">客製毛孩似顏繪</button></a>
+            </div>
+        </div>
+
+        <div class="adopt">
+            <div class="title2">
+                <img src="圖片資源/title02.png" alt="">
+            </div>
+            <p>這裡是在還在等家的浪浪們，若您正巧在找個家人，不訪來認識一下唄</p>
+            <div class="dog_card">
+                <div class="item">
+                    <img src="圖片資源/dog01.png" alt="">
+                    <h1>等家中-華仔</h1>
+                    <p>目前7個月大的華仔，是個愛笑的貪吃鬼，喜歡吃西瓜還有蓮霧，是一隻吃素的乖狗狗，會挑食不喜歡...</p>
+                    <hr>
+                    <h2>MORE</h2>
+                </div>
+                <div class="l1">
+                    <img src="圖片資源/04.png" alt="">
+                    <h1>等家中-小呆</h1>
+                    <p>小呆有著圓圓的大眼睛，一歲的他來自台中，原本陪著一位老奶奶生活，上個月奶奶行動不便不能再陪...</p>
+                    <hr>
+                    <h2>MORE</h2>
+                </div>
+                <div class="item">
+                    <img src="圖片資源/08.png" alt="">
+                    <h1>等家中-Snow</h1>
+                    <p>看起來很兇但特別怕打雷的Snow，很喜歡吃冰，冰冰的水也喜歡，如果摸他的額頭會發出吹口哨的聲...</p>
+                    <hr>
+                    <a href="story.html"><h2>MORE</h2></a>
+                </div>
+            </div>
+            <div>
+                <a href="adopt.html"><button class="btn">看看更多浪浪</button></a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <hr>
+            <div class="contact">
+                <ul>
+                    <li class="pic"><img src="圖片資源/link01.png" alt=""></li>
+                    <li class="text">
+                        <h1>加入奴才團隊</h1>
+                        <p>我也會畫畫，希望能盡一份心力！</p>
+                        <button class="btn">聯絡我們</button>
+                    </li>
+                    <li class="pic"><img src="圖片資源/link02.png" alt=""></li>
+                    <li class="text">
+                        <h1>加入奴才團隊</h1>
+                        <p>我也會畫畫，希望能盡一份心力！</p>
+                        <a href="adopt.html"><button class="btn">領養專區</button></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2021 撿到寶.All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    var img = document. getElementById ("pic");
+    var flag = true;
+    img.onclick = function () {
+        if (flag) {
+        img.src = "圖片資源/btn2.png";
+        flag = false;
+    }else{
+        img.src = "圖片資源/btn.png";
+        flag = true;
+        }
+    }
+</script>

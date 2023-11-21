@@ -1,0 +1,129 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.wrap{
+    background-image: url("圖片資源/lightpaperfibers.png");
+}
+
+.title{
+    margin-bottom: 80px;
+}
+
+.form{
+    margin: auto;
+    margin-bottom: 80px;
+    top: 456px;
+    left: 284px;
+    width: 872px;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #0000001A;
+    border-radius: 12px;
+    opacity: 1;
+}
+.form hr{
+    border-radius: 12px 12px 0 0;
+}
+.form h1{
+    padding-top: 44px;
+    padding-bottom: 71px;
+    text-align: center;
+    font: normal normal bold 24px/33px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.form .block{
+    margin-left: 32px;
+    margin-right: 32px;
+    font: normal normal normal 16px/22px Noto Sans;
+}
+.form .block .box{
+    margin-bottom: 18px;
+}
+.form .block .name{
+    display: inline-flex;
+}
+.form .block .name .text{
+    margin-right: 24px;
+}
+.form .title{
+    margin-bottom: 8px;
+}
+.form .block .option_block{
+    display: inline-flex;
+}
+.form .option_block .box{
+    margin-right: 24px;
+    margin-bottom: 8px;
+}
+.form .total{
+    padding-top: 42px;
+    padding-bottom: 26px;
+    text-align: center;
+    font: normal normal bold 24px/33px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.form .output_btn{
+    padding-bottom: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form .output_btn button{
+    width: 240px;
+    height: 49px;
+    background: #F9C745 0% 0% no-repeat padding-box;
+    border-color: #F9C745;
+    border-radius: 24px;
+    opacity: 1;
+}
+.form .output_btn .btn{
+    font: normal normal normal 24px/33px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}

@@ -1,0 +1,98 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+    max-width: 100%;
+    background-image: url("圖片資源/lightpaperfibers.png");
+}
+
+.title{
+    margin-top: 40px;
+    margin-bottom: 40.25px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+}
+
+.container .menu{
+    margin-left: 60px;
+    margin-right: 247px;
+}
+.container .menu .title{
+    margin-bottom: 24px;
+    text-align: left;
+    font: normal normal bold 24px/39px Kalam;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.container .menu .item{
+    margin-bottom: 16px;
+    text-align: left;
+    font: normal normal normal 20px/32px Kalam;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.container .menu .item:hover{
+    text-align: left;
+    font: normal normal normal 20px/32px Kalam;
+    letter-spacing: 0px;
+    color: #F9C745;
+    opacity: 1;
+}
+
+.container .dog img{
+    margin-right: 24px;
+    margin-bottom: 24px;
+    width: 311px;
+    height: 311px;
+    border-radius: 24px;
+    opacity: 1;
+}
+
+.wrap hr{
+    margin-top: 56px;
+}

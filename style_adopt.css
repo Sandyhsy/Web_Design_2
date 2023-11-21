@@ -1,0 +1,127 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+    max-width: 100%;
+    background-image: url("圖片資源/lightpaperfibers.png");
+}
+
+.title{
+    margin-top: 40px;
+    margin-bottom: 40.25px;
+    text-align: center;
+}
+
+.intro{
+    margin-bottom: 80px;
+    text-align: center;
+}
+.intro .item{
+    display: inline-block;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    width: 424px;
+    height: 621px;    
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #00000014;
+    border-radius: 24px;
+    opacity: 1;
+}
+.intro .item a{
+    text-decoration: none;
+}
+.intro img{
+    width: 424px;
+    height: 424px;
+    margin-bottom: 30px;
+    border-radius: 24px 24px 0px 0px;
+    opacity: 1;
+}
+.intro h1{
+    margin-left: 24px;
+    margin-bottom: 16px;
+    text-align: left;
+    font: normal normal bold 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.intro p{
+    margin-left: 24px;
+    margin-bottom: 26px;
+    margin-right: 24px;
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.intro hr{
+    margin-left: 24.5px;
+    margin-bottom: 16px;
+    margin-right: 24.5px;
+    border: 1px solid #ECECEC;
+    opacity: 1;
+}
+.intro h2{
+    margin-bottom: 16px;
+    text-align: center;
+    font: normal normal bold 16px/25px Kalam;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+
+.pages{
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+.pages p{
+    font: normal normal bold 20px/32px Kalam;
+    letter-spacing: 10px;
+    opacity: 1;
+}
+.pages .color{
+    color: #F9C745;
+}

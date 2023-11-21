@@ -1,0 +1,162 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.wrap{
+    background-image: url("圖片資源/lightpaperfibers.png");
+}
+
+.title{
+    margin-top: 40px;
+    margin-bottom: 44.25px;
+    text-align: center;
+}
+
+.dog_story{
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.dog_story .intro{
+    display: inline-block;
+    margin-right: 24px;
+    width: 872px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #0000001A;
+    border-radius: 12px;
+    opacity: 1;
+}
+.dog_story .intro .detail{
+    padding-left: 33px;
+    padding-bottom: 55px;
+    display: flex;
+}
+.dog_story .intro .detail .item{
+    padding-right: 208px;
+    text-align: left;
+    font: normal normal normal 16px/32px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.dog_story .intro h1{
+    padding-top: 34px;
+    padding-left: 33px;
+    padding-bottom: 25px;
+    text-align: left;
+    font: normal normal bold 24px/33px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.dog_story .intro p{
+    padding-left: 32px;
+    padding-bottom: 42px;
+    text-align: left;
+    width: 808px;
+    font: normal normal normal 16px/32px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.dog_story img{
+    padding-bottom: 32px;
+    width: 808px;
+    height: 539px;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+.dog_story .info{
+    display: inline-block;
+    vertical-align: top;
+    width: 424px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #00000014;
+    border-radius: 24px;    
+    opacity: 1;
+}
+.dog_story .info img{
+    padding-bottom: 26px;
+    width: 424px;
+    height: 424px;
+    border-radius: 24px 24px 0px 0px;
+    opacity: 1;
+}
+.dog_story .info .contact{
+    padding-left: 24px;
+}
+.dog_story .info .contact h1{
+    padding-bottom: 6px;
+    text-align: left;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.dog_story .info .contact p{
+    padding-bottom: 18px;
+    text-align: left;
+    font: normal normal bold 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+.dog_story .info .btn{
+    margin-top: 10px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+    width: 376px;
+    height: 51px;
+    background: #F9C745 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+}
+.dog_story .info .btn p{
+    padding-top: 11px;
+    padding-bottom: 7px;
+    font: normal normal normal 24px/33px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
